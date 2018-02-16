@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:Thermocouple Data Logger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -16,34 +17,12 @@ $EndDescr
 $Comp
 L atmel:ATMEGA324PA-MU U?
 U 1 1 5A8617D1
-P 5450 4400
-F 0 "U?" H 5450 6578 50  0000 C CNN
-F 1 "ATMEGA324PA-MU" H 5450 6487 50  0000 C CNN
-F 2 "VQFN44" H 5450 4400 50  0001 C CIN
-F 3 "http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf" H 5450 4400 50  0001 C CNN
-	1    5450 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Display:DA56-11SRWA U?
-U 1 1 5A861832
-P 9650 1500
-F 0 "U?" H 9650 2067 50  0000 C CNN
-F 1 "DA56-11SRWA" H 9650 1976 50  0000 C CNN
-F 2 "Displays_7-Segment:DA56-11SURKWA" H 9670 750 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/DA56-11SRWA.pdf" H 9530 1500 50  0001 C CNN
-	1    9650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Display:DA56-11SRWA U?
-U 1 1 5A861881
-P 7650 1500
-F 0 "U?" H 7650 2067 50  0000 C CNN
-F 1 "DA56-11SRWA" H 7650 1976 50  0000 C CNN
-F 2 "Displays_7-Segment:DA56-11SURKWA" H 7670 750 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/DA56-11SRWA.pdf" H 7530 1500 50  0001 C CNN
-	1    7650 1500
+P 4450 4250
+F 0 "U?" H 4450 6428 50  0000 C CNN
+F 1 "ATMEGA324PA-MU" H 4450 6337 50  0000 C CNN
+F 2 "VQFN44" H 4450 4250 50  0001 C CIN
+F 3 "http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf" H 4450 4250 50  0001 C CNN
+	1    4450 4250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -101,14 +80,55 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    9800 4850
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6950 1500 1450 950 
+U 5A867525
+F0 "Display" 50
+F1 "Display.sch" 50
+F2 "VCC" I L 6950 1700 50 
+F3 "GND" I L 6950 2150 50 
+$EndSheet
 $Comp
-L regul:MCP1700-3302E_SOT23 U?
-U 1 1 5A862FA9
+L Switch:SW_DIP_x10 SW?
+U 1 1 5A86805B
+P 6900 4900
+F 0 "SW?" H 6900 5667 50  0000 C CNN
+F 1 "SW_DIP_x10" H 6900 5576 50  0000 C CNN
+F 2 "" H 6900 4900 50  0001 C CNN
+F 3 "" H 6900 4900 50  0001 C CNN
+	1    6900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5A86878E
+P 3000 1100
+F 0 "SW?" H 3000 1385 50  0000 C CNN
+F 1 "SW_SPDT" H 3000 1294 50  0000 C CNN
+F 2 "" H 3000 1100 50  0001 C CNN
+F 3 "" H 3000 1100 50  0001 C CNN
+	1    3000 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5A868860
+P 6400 1600
+F 0 "SW?" H 6400 1885 50  0000 C CNN
+F 1 "SW_SPDT" H 6400 1794 50  0000 C CNN
+F 2 "" H 6400 1600 50  0001 C CNN
+F 3 "" H 6400 1600 50  0001 C CNN
+	1    6400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L regul:MIC5219-3.3 U?
+U 1 1 5A8699CA
 P 4350 1050
-F 0 "U?" H 4350 1292 50  0000 C CNN
-F 1 "MCP1700-3302E_SOT23" H 4350 1201 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4350 1275 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf" H 4350 1050 50  0001 C CNN
+F 0 "U?" H 4350 1392 50  0000 C CNN
+F 1 "MIC5219-3.3" H 4350 1301 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4350 1375 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf" H 4350 1050 50  0001 C CNN
 	1    4350 1050
 	1    0    0    -1  
 $EndComp
