@@ -101,15 +101,4 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    9800 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L regul:MCP1700-3302E_SOT23 U?
-U 1 1 5A862FA9
-P 4350 1050
-F 0 "U?" H 4350 1292 50  0000 C CNN
-F 1 "MCP1700-3302E_SOT23" H 4350 1201 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4350 1275 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf" H 4350 1050 50  0001 C CNN
-	1    4350 1050
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
