@@ -1,0 +1,180 @@
+EESchema Schematic File Version 4
+LIBS:Thermocouple Data Logger-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sensors:MAX31856 U?
+U 1 1 5A878CB3
+P 2950 2800
+F 0 "U?" H 2950 3578 50  0000 C CNN
+F 1 "MAX31856" H 2950 3487 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3100 2250 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf" H 2900 3000 50  0001 C CNN
+	1    2950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A8A7AF3
+P 3050 3600
+F 0 "#PWR?" H 3050 3350 50  0001 C CNN
+F 1 "GND" H 3055 3427 50  0000 C CNN
+F 2 "" H 3050 3600 50  0001 C CNN
+F 3 "" H 3050 3600 50  0001 C CNN
+	1    3050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3400 2850 3600
+Wire Wire Line
+	3050 3400 3050 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5A8A8050
+P 2850 3600
+F 0 "#PWR?" H 2850 3350 50  0001 C CNN
+F 1 "GND" H 2855 3427 50  0000 C CNN
+F 2 "" H 2850 3600 50  0001 C CNN
+F 3 "" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A8A855F
+P 2100 2550
+F 0 "R?" V 1893 2550 50  0000 C CNN
+F 1 "100" V 1984 2550 50  0000 C CNN
+F 2 "" V 2030 2550 50  0001 C CNN
+F 3 "" H 2100 2550 50  0001 C CNN
+	1    2100 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A8A859A
+P 2100 2950
+F 0 "R?" V 1893 2950 50  0000 C CNN
+F 1 "100" V 1984 2950 50  0000 C CNN
+F 2 "" V 2030 2950 50  0001 C CNN
+F 3 "" H 2100 2950 50  0001 C CNN
+	1    2100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02 J?
+U 1 1 5A8A7D94
+P 1550 2800
+F 0 "J?" H 1470 2475 50  0000 C CNN
+F 1 "Conn_01x02" H 1470 2566 50  0000 C CNN
+F 2 "" H 1550 2800 50  0001 C CNN
+F 3 "~" H 1550 2800 50  0001 C CNN
+	1    1550 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 2800 1950 2800
+Wire Wire Line
+	1950 2800 1950 2950
+Wire Wire Line
+	2250 2950 2250 2800
+Wire Wire Line
+	2250 2800 2450 2800
+Wire Wire Line
+	2450 2700 2250 2700
+Wire Wire Line
+	2250 2700 2250 2550
+Wire Wire Line
+	1950 2550 1950 2700
+Wire Wire Line
+	1950 2700 1750 2700
+Wire Wire Line
+	2450 2900 2450 3050
+Wire Wire Line
+	2450 3050 1750 3050
+Wire Wire Line
+	1750 3050 1750 2800
+Connection ~ 1750 2800
+Text HLabel 2100 1600 0    50   Input ~ 0
+VCC1
+Text HLabel 3750 1600 2    50   Input ~ 0
+VCC1
+$Comp
+L device:C C?
+U 1 1 5A8AA4BE
+P 3650 1750
+F 0 "C?" H 3765 1796 50  0000 L CNN
+F 1 "0.33uF" H 3765 1705 50  0000 L CNN
+F 2 "" H 3688 1600 50  0001 C CNN
+F 3 "" H 3650 1750 50  0001 C CNN
+	1    3650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5A8AA592
+P 2200 1750
+F 0 "C?" H 2315 1796 50  0000 L CNN
+F 1 "0.33uF" H 2315 1705 50  0000 L CNN
+F 2 "" H 2238 1600 50  0001 C CNN
+F 3 "" H 2200 1750 50  0001 C CNN
+	1    2200 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1600 2200 1600
+Wire Wire Line
+	2700 2200 2850 2200
+Wire Wire Line
+	3050 2200 3200 2200
+Wire Wire Line
+	3200 2200 3200 1600
+Wire Wire Line
+	3650 1600 3750 1600
+Connection ~ 3650 1600
+Wire Wire Line
+	3200 1600 3650 1600
+Connection ~ 2200 1600
+Wire Wire Line
+	2200 1600 2700 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5A8AB66B
+P 3650 2000
+F 0 "#PWR?" H 3650 1750 50  0001 C CNN
+F 1 "GND" H 3655 1827 50  0000 C CNN
+F 2 "" H 3650 2000 50  0001 C CNN
+F 3 "" H 3650 2000 50  0001 C CNN
+	1    3650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A8AB689
+P 2200 2000
+F 0 "#PWR?" H 2200 1750 50  0001 C CNN
+F 1 "GND" H 2205 1827 50  0000 C CNN
+F 2 "" H 2200 2000 50  0001 C CNN
+F 3 "" H 2200 2000 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2000 2200 1900
+Wire Wire Line
+	3650 2000 3650 1900
+Wire Wire Line
+	2700 1600 2700 2200
+$EndSCHEMATC

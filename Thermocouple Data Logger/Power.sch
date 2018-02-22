@@ -1,0 +1,184 @@
+EESchema Schematic File Version 4
+LIBS:Thermocouple Data Logger-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5A8E52AA
+P 4650 2750
+F 0 "SW?" H 4650 3035 50  0000 C CNN
+F 1 "SW_SPDT" H 4650 2944 50  0000 C CNN
+F 2 "" H 4650 2750 50  0001 C CNN
+F 3 "" H 4650 2750 50  0001 C CNN
+	1    4650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5A8E52B8
+P 5450 3000
+F 0 "C?" H 5565 3046 50  0000 L CNN
+F 1 "10uF" H 5565 2955 50  0000 L CNN
+F 2 "" H 5488 2850 50  0001 C CNN
+F 3 "" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5A8E52BF
+P 7600 3000
+F 0 "C?" H 7715 3046 50  0000 L CNN
+F 1 "22uf" H 7715 2955 50  0000 L CNN
+F 2 "" H 7638 2850 50  0001 C CNN
+F 3 "" H 7600 3000 50  0001 C CNN
+	1    7600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5A8E52C6
+P 7050 3000
+F 0 "C?" H 7165 3046 50  0000 L CNN
+F 1 "0.01uF" H 7165 2955 50  0000 L CNN
+F 2 "" H 7088 2850 50  0001 C CNN
+F 3 "" H 7050 3000 50  0001 C CNN
+	1    7050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02 J?
+U 1 1 5A8E52CE
+P 3750 2850
+F 0 "J?" H 3670 2525 50  0000 C CNN
+F 1 "Conn_01x02" H 3670 2616 50  0000 C CNN
+F 2 "" H 3750 2850 50  0001 C CNN
+F 3 "~" H 3750 2850 50  0001 C CNN
+	1    3750 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 2750 4450 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5A8E52E6
+P 6350 3750
+F 0 "#PWR?" H 6350 3500 50  0001 C CNN
+F 1 "GND" H 6355 3577 50  0000 C CNN
+F 2 "" H 6350 3750 50  0001 C CNN
+F 3 "" H 6350 3750 50  0001 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A8E52EF
+P 7950 2750
+F 0 "#PWR?" H 7950 2600 50  0001 C CNN
+F 1 "+3.3V" H 7965 2923 50  0000 C CNN
+F 2 "" H 7950 2750 50  0001 C CNN
+F 3 "" H 7950 2750 50  0001 C CNN
+	1    7950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Thermocouple-Data-Logger:LT1763-3.3 U?
+U 1 1 5A8EC0FA
+P 6350 2950
+F 0 "U?" H 6350 3317 50  0000 C CNN
+F 1 "LT1763-3.3" H 6350 3226 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6350 3275 50  0001 C CNN
+F 3 "http://www.linear.com/docs/3903" H 6350 2950 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2850 5450 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5A8EC598
+P 5450 3300
+F 0 "#PWR?" H 5450 3050 50  0001 C CNN
+F 1 "GND" H 5455 3127 50  0000 C CNN
+F 2 "" H 5450 3300 50  0001 C CNN
+F 3 "" H 5450 3300 50  0001 C CNN
+	1    5450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3300 5450 3150
+Wire Wire Line
+	6200 3500 6200 3600
+Wire Wire Line
+	6200 3600 6350 3600
+Wire Wire Line
+	6500 3600 6500 3500
+Wire Wire Line
+	6350 3500 6350 3600
+Connection ~ 6350 3600
+Wire Wire Line
+	6350 3600 6500 3600
+Wire Wire Line
+	6350 3750 6350 3600
+Wire Wire Line
+	6750 2850 6750 3000
+Connection ~ 6750 2850
+Wire Wire Line
+	7950 2850 7950 2750
+Connection ~ 7600 2850
+Wire Wire Line
+	7600 2850 7950 2850
+Wire Wire Line
+	6750 2850 7050 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5A8ED70D
+P 7600 3300
+F 0 "#PWR?" H 7600 3050 50  0001 C CNN
+F 1 "GND" H 7605 3127 50  0000 C CNN
+F 2 "" H 7600 3300 50  0001 C CNN
+F 3 "" H 7600 3300 50  0001 C CNN
+	1    7600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3300 7600 3150
+Connection ~ 7050 2850
+Wire Wire Line
+	7050 2850 7600 2850
+Wire Wire Line
+	6750 3150 7050 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5A8EE196
+P 4150 3050
+F 0 "#PWR?" H 4150 2800 50  0001 C CNN
+F 1 "GND" H 4155 2877 50  0000 C CNN
+F 2 "" H 4150 3050 50  0001 C CNN
+F 3 "" H 4150 3050 50  0001 C CNN
+	1    4150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2850 4150 2850
+Wire Wire Line
+	4150 2850 4150 3050
+Connection ~ 5950 2850
+Wire Wire Line
+	5950 2850 5950 3050
+Wire Wire Line
+	5450 2850 5950 2850
+Connection ~ 5450 2850
+$EndSCHEMATC

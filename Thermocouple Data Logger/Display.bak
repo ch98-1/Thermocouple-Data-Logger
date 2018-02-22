@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -14,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Display:DA56-11SRWA U?
-U 1 1 5A86783F
-P 7100 1900
-F 0 "U?" H 7100 2467 50  0000 C CNN
-F 1 "DA56-11SRWA" H 7100 2376 50  0000 C CNN
-F 2 "Displays_7-Segment:DA56-11SURKWA" H 7120 1150 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/DA56-11SRWA.pdf" H 6980 1900 50  0001 C CNN
-	1    7100 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Display:DA56-11SRWA U?
-U 1 1 5A867846
-P 4550 1850
-F 0 "U?" H 4550 2417 50  0000 C CNN
-F 1 "DA56-11SRWA" H 4550 2326 50  0000 C CNN
-F 2 "Displays_7-Segment:DA56-11SURKWA" H 4570 1100 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/DA56-11SRWA.pdf" H 4430 1850 50  0001 C CNN
-	1    4550 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Logic_74xx:74HC595 U?
 U 1 1 5A86784D
@@ -82,8 +60,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 6900 3500 50  00
 $EndComp
 Text HLabel 1400 1350 0    50   Input ~ 0
 VCC
-Text HLabel 1450 4450 0    50   Input ~ 0
-GND
 $Comp
 L Logic_74xx:74HC595 U?
 U 1 1 5A868ED4
@@ -93,6 +69,143 @@ F 1 "74HC595" H 8250 4287 50  0000 C CNN
 F 2 "" H 8250 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 8250 3500 50  0001 C CNN
 	1    8250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC5E4
+P 9200 1300
+F 0 "D?" H 9192 1045 50  0000 C CNN
+F 1 "LED" H 9192 1136 50  0000 C CNN
+F 2 "" H 9200 1300 50  0001 C CNN
+F 3 "~" H 9200 1300 50  0001 C CNN
+	1    9200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC6B4
+P 9200 1750
+F 0 "D?" H 9192 1495 50  0000 C CNN
+F 1 "LED" H 9192 1586 50  0000 C CNN
+F 2 "" H 9200 1750 50  0001 C CNN
+F 3 "~" H 9200 1750 50  0001 C CNN
+	1    9200 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC6DB
+P 9200 2200
+F 0 "D?" H 9192 1945 50  0000 C CNN
+F 1 "LED" H 9192 2036 50  0000 C CNN
+F 2 "" H 9200 2200 50  0001 C CNN
+F 3 "~" H 9200 2200 50  0001 C CNN
+	1    9200 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC706
+P 9200 2700
+F 0 "D?" H 9192 2445 50  0000 C CNN
+F 1 "LED" H 9192 2536 50  0000 C CNN
+F 2 "" H 9200 2700 50  0001 C CNN
+F 3 "~" H 9200 2700 50  0001 C CNN
+	1    9200 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC734
+P 10050 1700
+F 0 "D?" H 10042 1445 50  0000 C CNN
+F 1 "LED" H 10042 1536 50  0000 C CNN
+F 2 "" H 10050 1700 50  0001 C CNN
+F 3 "~" H 10050 1700 50  0001 C CNN
+	1    10050 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC77F
+P 10050 2200
+F 0 "D?" H 10042 1945 50  0000 C CNN
+F 1 "LED" H 10042 2036 50  0000 C CNN
+F 2 "" H 10050 2200 50  0001 C CNN
+F 3 "~" H 10050 2200 50  0001 C CNN
+	1    10050 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:LED D?
+U 1 1 5A8DC7B7
+P 10050 2700
+F 0 "D?" H 10042 2445 50  0000 C CNN
+F 1 "LED" H 10042 2536 50  0000 C CNN
+F 2 "" H 10050 2700 50  0001 C CNN
+F 3 "~" H 10050 2700 50  0001 C CNN
+	1    10050 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5A8DCCD8
+P 2250 4850
+F 0 "SW?" H 2250 5135 50  0000 C CNN
+F 1 "SW_Push" H 2250 5044 50  0000 C CNN
+F 2 "" H 2250 5050 50  0001 C CNN
+F 3 "" H 2250 5050 50  0001 C CNN
+	1    2250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5A8DCE11
+P 2300 5900
+F 0 "SW?" H 2300 6185 50  0000 C CNN
+F 1 "SW_Push" H 2300 6094 50  0000 C CNN
+F 2 "" H 2300 6100 50  0001 C CNN
+F 3 "" H 2300 6100 50  0001 C CNN
+	1    2300 5900
+	1    0    0    -1  
+$EndComp
+Text HLabel 1750 4850 0    50   Output ~ 0
+Cycle/Menu
+Text HLabel 1700 5900 0    50   Output ~ 0
+Select/Calibrate
+Wire Wire Line
+	1750 4850 2050 4850
+Wire Wire Line
+	1700 5900 2100 5900
+Text HLabel 3100 4850 2    50   Input ~ 0
+VCC
+Text HLabel 3100 5900 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	3100 4850 2450 4850
+Wire Wire Line
+	2500 5900 3100 5900
+$Comp
+L Thermocouple-Data-Logger:HDSP-521E-Display U?
+U 1 1 5A8E568E
+P 3950 1400
+F 0 "U?" H 3950 1967 50  0000 C CNN
+F 1 "HDSP-521E-Display" H 3950 1876 50  0000 C CNN
+F 2 "Displays_7-Segment:HDSP-521E" H 3970 650 50  0001 C CNN
+F 3 "" H 3830 1400 50  0001 C CNN
+	1    3950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Thermocouple-Data-Logger:HDSP-521E-Display U?
+U 1 1 5A8E56D8
+P 6500 1350
+F 0 "U?" H 6500 1917 50  0000 C CNN
+F 1 "HDSP-521E-Display" H 6500 1826 50  0000 C CNN
+F 2 "Displays_7-Segment:HDSP-521E" H 6520 600 50  0001 C CNN
+F 3 "" H 6380 1350 50  0001 C CNN
+	1    6500 1350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
