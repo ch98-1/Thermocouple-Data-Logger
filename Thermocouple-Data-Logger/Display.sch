@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Logic_74xx:74HC595 U?
+L Logic_74xx:74HC595 U7
 U 1 1 5A86784D
 P 2900 3500
-F 0 "U?" H 2900 4378 50  0000 C CNN
+F 0 "U7" H 2900 4378 50  0000 C CNN
 F 1 "74HC595" H 2900 4287 50  0000 C CNN
 F 2 "" H 2900 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 2900 3500 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 2900 3500 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC595 U?
+L Logic_74xx:74HC595 U8
 U 1 1 5A867854
 P 4300 3500
-F 0 "U?" H 4300 4378 50  0000 C CNN
+F 0 "U8" H 4300 4378 50  0000 C CNN
 F 1 "74HC595" H 4300 4287 50  0000 C CNN
 F 2 "" H 4300 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 4300 3500 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 4300 3500 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC595 U?
+L Logic_74xx:74HC595 U9
 U 1 1 5A86785B
 P 5650 3500
-F 0 "U?" H 5650 4378 50  0000 C CNN
+F 0 "U9" H 5650 4378 50  0000 C CNN
 F 1 "74HC595" H 5650 4287 50  0000 C CNN
 F 2 "" H 5650 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 5650 3500 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 5650 3500 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC595 U?
+L Logic_74xx:74HC595 U10
 U 1 1 5A867862
 P 6900 3500
-F 0 "U?" H 6900 4378 50  0000 C CNN
+F 0 "U10" H 6900 4378 50  0000 C CNN
 F 1 "74HC595" H 6900 4287 50  0000 C CNN
 F 2 "" H 6900 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 6900 3500 50  0001 C CNN
@@ -61,10 +61,10 @@ $EndComp
 Text HLabel 1400 1350 0    50   Input ~ 0
 VCC
 $Comp
-L Logic_74xx:74HC595 U?
+L Logic_74xx:74HC595 U11
 U 1 1 5A868ED4
 P 8250 3500
-F 0 "U?" H 8250 4378 50  0000 C CNN
+F 0 "U11" H 8250 4378 50  0000 C CNN
 F 1 "74HC595" H 8250 4287 50  0000 C CNN
 F 2 "" H 8250 3500 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 8250 3500 50  0001 C CNN
@@ -150,42 +150,23 @@ F 3 "~" H 10050 2700 50  0001 C CNN
 $EndComp
 $Comp
 L Switch:SW_Push SW?
-U 1 1 5A8DCCD8
-P 2250 4850
-F 0 "SW?" H 2250 5135 50  0000 C CNN
-F 1 "SW_Push" H 2250 5044 50  0000 C CNN
-F 2 "" H 2250 5050 50  0001 C CNN
-F 3 "" H 2250 5050 50  0001 C CNN
-	1    2250 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW?
 U 1 1 5A8DCE11
-P 2300 5900
-F 0 "SW?" H 2300 6185 50  0000 C CNN
-F 1 "SW_Push" H 2300 6094 50  0000 C CNN
-F 2 "" H 2300 6100 50  0001 C CNN
-F 3 "" H 2300 6100 50  0001 C CNN
-	1    2300 5900
+P 2700 6500
+F 0 "SW?" H 2700 6785 50  0000 C CNN
+F 1 "Select/Calibrate" H 2700 6694 50  0000 C CNN
+F 2 "" H 2700 6700 50  0001 C CNN
+F 3 "" H 2700 6700 50  0001 C CNN
+	1    2700 6500
 	1    0    0    -1  
 $EndComp
-Text HLabel 1750 4850 0    50   Output ~ 0
-Cycle/Menu
-Text HLabel 1700 5900 0    50   Output ~ 0
+Text HLabel 1650 6500 0    50   Output ~ 0
 Select/Calibrate
 Wire Wire Line
-	1750 4850 2050 4850
-Wire Wire Line
-	1700 5900 2100 5900
-Text HLabel 3100 4850 2    50   Input ~ 0
-VCC
-Text HLabel 3100 5900 2    50   Input ~ 0
+	1650 6500 1900 6500
+Text HLabel 3050 6500 2    50   Input ~ 0
 VCC
 Wire Wire Line
-	3100 4850 2450 4850
-Wire Wire Line
-	2500 5900 3100 5900
+	2900 6500 3050 6500
 $Comp
 L Thermocouple-Data-Logger:HDSP-521E-Display U?
 U 1 1 5A8E568E
@@ -208,4 +189,141 @@ F 3 "" H 6380 1350 50  0001 C CNN
 	1    6500 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L device:R R?
+U 1 1 5AD8AEEC
+P 1900 6800
+F 0 "R?" V 1693 6800 50  0000 C CNN
+F 1 "10k" V 1784 6800 50  0000 C CNN
+F 2 "" V 1830 6800 50  0001 C CNN
+F 3 "" H 1900 6800 50  0001 C CNN
+	1    1900 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AD8AFB4
+P 1900 7100
+F 0 "#PWR?" H 1900 6850 50  0001 C CNN
+F 1 "GND" H 1905 6927 50  0000 C CNN
+F 2 "" H 1900 7100 50  0001 C CNN
+F 3 "" H 1900 7100 50  0001 C CNN
+	1    1900 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 7100 1900 6950
+Wire Wire Line
+	1900 6650 1900 6500
+Connection ~ 1900 6500
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5AD8C388
+P 5600 6500
+F 0 "SW?" H 5600 6785 50  0000 C CNN
+F 1 "Cycle/Menu" H 5600 6694 50  0000 C CNN
+F 2 "" H 5600 6700 50  0001 C CNN
+F 3 "" H 5600 6700 50  0001 C CNN
+	1    5600 6500
+	1    0    0    -1  
+$EndComp
+Text HLabel 4550 6500 0    50   Output ~ 0
+Cycle/Menu
+Wire Wire Line
+	4550 6500 4800 6500
+Text HLabel 5950 6500 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	5800 6500 5950 6500
+$Comp
+L device:R R?
+U 1 1 5AD8C3A0
+P 4800 6800
+F 0 "R?" V 4593 6800 50  0000 C CNN
+F 1 "10k" V 4684 6800 50  0000 C CNN
+F 2 "" V 4730 6800 50  0001 C CNN
+F 3 "" H 4800 6800 50  0001 C CNN
+	1    4800 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AD8C3A7
+P 4800 7100
+F 0 "#PWR?" H 4800 6850 50  0001 C CNN
+F 1 "GND" H 4805 6927 50  0000 C CNN
+F 2 "" H 4800 7100 50  0001 C CNN
+F 3 "" H 4800 7100 50  0001 C CNN
+	1    4800 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 7100 4800 6950
+Wire Wire Line
+	4800 6650 4800 6500
+Connection ~ 4800 6500
+Wire Wire Line
+	4800 6500 5000 6500
+Wire Wire Line
+	1900 6500 2100 6500
+$Comp
+L device:C C?
+U 1 1 5ADBEA6C
+P 1900 6150
+F 0 "C?" H 2015 6196 50  0000 L CNN
+F 1 "0.1uF" H 2015 6105 50  0000 L CNN
+F 2 "" H 1938 6000 50  0001 C CNN
+F 3 "" H 1900 6150 50  0001 C CNN
+	1    1900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5ADBECAE
+P 4800 6150
+F 0 "C?" H 4915 6196 50  0000 L CNN
+F 1 "0.1uF" H 4915 6105 50  0000 L CNN
+F 2 "" H 4838 6000 50  0001 C CNN
+F 3 "" H 4800 6150 50  0001 C CNN
+	1    4800 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6500 1900 6300
+Wire Wire Line
+	4800 6500 4800 6300
+Text HLabel 4800 5800 1    50   Input ~ 0
+VCC
+Text HLabel 1900 5800 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	4800 6000 4800 5800
+Wire Wire Line
+	1900 6000 1900 5800
+$Comp
+L device:R R?
+U 1 1 5ADBF30B
+P 2250 6500
+F 0 "R?" V 2043 6500 50  0000 C CNN
+F 1 "1k" V 2134 6500 50  0000 C CNN
+F 2 "" V 2180 6500 50  0001 C CNN
+F 3 "" H 2250 6500 50  0001 C CNN
+	1    2250 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 6500 2500 6500
+$Comp
+L device:R R?
+U 1 1 5ADBF4AD
+P 5150 6500
+F 0 "R?" V 4943 6500 50  0000 C CNN
+F 1 "1k" V 5034 6500 50  0000 C CNN
+F 2 "" V 5080 6500 50  0001 C CNN
+F 3 "" H 5150 6500 50  0001 C CNN
+	1    5150 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 6500 5400 6500
 $EndSCHEMATC

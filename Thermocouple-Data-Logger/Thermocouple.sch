@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L sensors:MAX31856 U?
+L sensors:MAX31856 U3
 U 1 1 5A878CB3
 P 2900 2450
-F 0 "U?" H 2900 3228 50  0000 C CNN
+F 0 "U3" H 2900 3228 50  0000 C CNN
 F 1 "MAX31856" H 2900 3137 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3050 1900 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf" H 2850 2650 50  0001 C CNN
@@ -265,10 +265,10 @@ SDO
 Text HLabel 3400 2750 2    50   Input ~ 0
 SDI
 $Comp
-L sensors:MAX31856 U?
+L sensors:MAX31856 U5
 U 1 1 5A96C92D
 P 2950 5150
-F 0 "U?" H 2950 5928 50  0000 C CNN
+F 0 "U5" H 2950 5928 50  0000 C CNN
 F 1 "MAX31856" H 2950 5837 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 3100 4600 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf" H 2900 5350 50  0001 C CNN
@@ -515,10 +515,10 @@ SDO
 Text HLabel 3450 5450 2    50   Input ~ 0
 SDI
 $Comp
-L sensors:MAX31856 U?
+L sensors:MAX31856 U4
 U 1 1 5A96DCFD
 P 6900 2450
-F 0 "U?" H 6900 3228 50  0000 C CNN
+F 0 "U4" H 6900 3228 50  0000 C CNN
 F 1 "MAX31856" H 6900 3137 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7050 1900 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf" H 6850 2650 50  0001 C CNN
@@ -765,10 +765,10 @@ SDO
 Text HLabel 7400 2750 2    50   Input ~ 0
 SDI
 $Comp
-L sensors:MAX31856 U?
+L sensors:MAX31856 U6
 U 1 1 5A9701A9
 P 7000 5150
-F 0 "U?" H 7000 5928 50  0000 C CNN
+F 0 "U6" H 7000 5928 50  0000 C CNN
 F 1 "MAX31856" H 7000 5837 50  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 7150 4600 50  0001 L CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf" H 6950 5350 50  0001 C CNN

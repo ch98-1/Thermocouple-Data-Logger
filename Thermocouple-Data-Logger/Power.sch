@@ -94,10 +94,10 @@ F 3 "" H 7950 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Thermocouple-Data-Logger:LT1763-3.3 U?
+L Thermocouple-Data-Logger:LT1763-3.3 U2
 U 1 1 5A8EC0FA
 P 6350 2950
-F 0 "U?" H 6350 3317 50  0000 C CNN
+F 0 "U2" H 6350 3317 50  0000 C CNN
 F 1 "LT1763-3.3" H 6350 3226 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6350 3275 50  0001 C CNN
 F 3 "http://www.linear.com/docs/3903" H 6350 2950 50  0001 C CNN
