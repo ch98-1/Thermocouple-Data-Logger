@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Thermocouple-Data-Logger)(type Legacy)(uri "/Users/corwin/Desktop/Thermocouple-Data-Logger/Thermocouple Data Logger/Thermocouple-Data-Logger.lib")(options "")(descr ""))
+  (lib (name Thermocouple-Data-Logger)(type Legacy)(uri ${KIPRJMOD}/Thermocouple-Data-Logger.lib)(options "")(descr ""))
 )

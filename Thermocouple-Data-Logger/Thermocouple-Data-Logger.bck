@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LT1763-3.3
-D Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 500mA 8-SOIC
-K REGULATOR POSITIVE POWER LDO
-F http://www.linear.com/docs/3903
-$ENDCMP
-#
-#End Doc Library

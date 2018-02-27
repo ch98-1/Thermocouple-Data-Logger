@@ -134,7 +134,6 @@ Wire Wire Line
 	6350 3750 6350 3600
 Wire Wire Line
 	6750 2850 6750 3000
-Connection ~ 6750 2850
 Wire Wire Line
 	7950 2850 7950 2750
 Connection ~ 7600 2850
@@ -175,10 +174,22 @@ Wire Wire Line
 	3950 2850 4150 2850
 Wire Wire Line
 	4150 2850 4150 3050
-Connection ~ 5950 2850
 Wire Wire Line
 	5950 2850 5950 3050
 Wire Wire Line
 	5450 2850 5950 2850
 Connection ~ 5450 2850
+Wire Wire Line
+	5450 2850 5450 2650
+$Comp
+L power:+5V #PWR?
+U 1 1 5A989E58
+P 5450 2650
+F 0 "#PWR?" H 5450 2500 50  0001 C CNN
+F 1 "+5V" H 5465 2823 50  0000 C CNN
+F 2 "" H 5450 2650 50  0001 C CNN
+F 3 "" H 5450 2650 50  0001 C CNN
+	1    5450 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
