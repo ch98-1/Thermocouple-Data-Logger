@@ -533,17 +533,6 @@ F 3 "~" H 9600 3300 50  0001 C CNN
 	1    9600 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Micro_SD_Card_Det_Hirose_DM3AT J?
-U 1 1 5A862BAF
-P 10000 5450
-F 0 "J?" H 9950 6267 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 9950 6176 50  0000 C CNN
-F 2 "" H 12050 6150 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10000 5550 50  0001 C CNN
-	1    10000 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9900 3200 10150 3200
 Wire Wire Line
@@ -1412,4 +1401,15 @@ Wire Wire Line
 Connection ~ 8950 950 
 Wire Wire Line
 	8950 950  9350 950 
+$Comp
+L Connector:Micro_SD_Card_Det J?
+U 1 1 5A972AA1
+P 10000 5450
+F 0 "J?" H 9950 6267 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 9950 6176 50  0000 C CNN
+F 2 "" H 12050 6150 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 10000 5550 50  0001 C CNN
+	1    10000 5450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

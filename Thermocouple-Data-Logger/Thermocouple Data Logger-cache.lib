@@ -57,11 +57,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Micro_SD_Card_Det_Hirose_DM3AT
+# Connector:Micro_SD_Card_Det
 #
-DEF Connector:Micro_SD_Card_Det_Hirose_DM3AT J 0 40 Y Y 1 F N
+DEF Connector:Micro_SD_Card_Det J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "Connector:Micro_SD_Card_Det_Hirose_DM3AT" 650 700 50 H V R CNN
+F1 "Connector:Micro_SD_Card_Det" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 ALIAS Micro_SD_Card_Det_Hirose_DM3AT

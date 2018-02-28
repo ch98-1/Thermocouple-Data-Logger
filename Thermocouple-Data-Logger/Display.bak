@@ -1279,4 +1279,21 @@ Wire Wire Line
 	8850 1200 8850 750 
 Text HLabel 8850 750  1    50   Input ~ 0
 VCC
+Text HLabel 8350 2100 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR?
+U 1 1 5A978C97
+P 8200 2550
+F 0 "#PWR?" H 8200 2300 50  0001 C CNN
+F 1 "GND" H 8205 2377 50  0000 C CNN
+F 2 "" H 8200 2550 50  0001 C CNN
+F 3 "" H 8200 2550 50  0001 C CNN
+	1    8200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2550 8200 2400
+Wire Wire Line
+	8200 2400 8350 2400
 $EndSCHEMATC
