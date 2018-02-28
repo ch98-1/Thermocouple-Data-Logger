@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Display)(type KiCad)(uri "$(KIPRJMOD)/Display.pretty")(options "")(descr ""))
+  (lib (name TerminalBlock-PTSA)(type KiCad)(uri "$(KIPRJMOD)/TerminalBlock-PTSA.pretty")(options "")(descr ""))
 )
