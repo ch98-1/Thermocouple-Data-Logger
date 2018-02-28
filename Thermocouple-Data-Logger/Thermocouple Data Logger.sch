@@ -33,6 +33,9 @@ F1 "Display.sch" 50
 F2 "VCC" I L 9350 950 50 
 F3 "Select/Calibrate" O L 9350 1550 50 
 F4 "Cycle/Menu" O L 9350 1450 50 
+F5 "SER" I L 9350 1100 50 
+F6 "SRCLK" I L 9350 1200 50 
+F7 "RCLK" I L 9350 1300 50 
 $EndSheet
 $Comp
 L Switch:SW_SPDT SW?
@@ -524,7 +527,7 @@ L Connector:Conn_02x03_Odd_Even J?
 U 1 1 5A984B5E
 P 9600 3300
 F 0 "J?" H 9650 3617 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 9650 3526 50  0000 C CNN
+F 1 "ISP" H 9650 3526 50  0000 C CNN
 F 2 "" H 9600 3300 50  0001 C CNN
 F 3 "~" H 9600 3300 50  0001 C CNN
 	1    9600 3300
@@ -596,10 +599,10 @@ RESET
 Text GLabel 8350 3900 0    50   Input ~ 0
 RESET
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 7 1 5A9A0A2A
 P 7150 3350
-F 0 "U?" H 7380 3396 50  0000 L CNN
+F 0 "U14" H 7380 3396 50  0000 L CNN
 F 1 "4050" H 7380 3305 50  0000 L CNN
 F 2 "" H 7150 3350 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 7150 3350 50  0001 C CNN
@@ -607,10 +610,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 1 1 5A9A89DB
 P 10400 3300
-F 0 "U?" H 10400 3617 50  0000 C CNN
+F 0 "U14" H 10400 3617 50  0000 C CNN
 F 1 "4050" H 10400 3526 50  0000 C CNN
 F 2 "" H 10400 3300 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 10400 3300 50  0001 C CNN
@@ -618,10 +621,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 2 1 5A9A8A59
 P 8800 3300
-F 0 "U?" H 8800 2983 50  0000 C CNN
+F 0 "U14" H 8800 2983 50  0000 C CNN
 F 1 "4050" H 8800 3074 50  0000 C CNN
 F 2 "" H 8800 3300 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 8800 3300 50  0001 C CNN
@@ -629,10 +632,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 3 1 5A9A8ADB
 P 8800 3900
-F 0 "U?" H 8800 3583 50  0000 C CNN
+F 0 "U14" H 8800 3583 50  0000 C CNN
 F 1 "4050" H 8800 3674 50  0000 C CNN
 F 2 "" H 8800 3900 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 8800 3900 50  0001 C CNN
@@ -653,10 +656,10 @@ $EndComp
 Wire Wire Line
 	7150 4000 7150 3850
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 4 1 5A9AAE84
 P 7500 5250
-F 0 "U?" H 7500 5567 50  0000 C CNN
+F 0 "U14" H 7500 5567 50  0000 C CNN
 F 1 "4050" H 7500 5476 50  0000 C CNN
 F 2 "" H 7500 5250 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 7500 5250 50  0001 C CNN
@@ -664,10 +667,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 5 1 5A9AAF0E
 P 7500 5750
-F 0 "U?" H 7500 6067 50  0000 C CNN
+F 0 "U14" H 7500 6067 50  0000 C CNN
 F 1 "4050" H 7500 5976 50  0000 C CNN
 F 2 "" H 7500 5750 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 7500 5750 50  0001 C CNN
@@ -675,10 +678,10 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U?
+L Logic_CMOS_4000:4050 U14
 U 6 1 5A9AAF9E
 P 7500 4750
-F 0 "U?" H 7500 5067 50  0000 C CNN
+F 0 "U14" H 7500 5067 50  0000 C CNN
 F 1 "4050" H 7500 4976 50  0000 C CNN
 F 2 "" H 7500 4750 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" H 7500 4750 50  0001 C CNN
@@ -1010,18 +1013,18 @@ Wire Wire Line
 Wire Wire Line
 	4450 3850 4450 4050
 Text GLabel 4300 4350 2    50   Input ~ 0
-DA
+SER
 Text GLabel 4300 4450 2    50   Input ~ 0
-DB
+SRCLK
 Text GLabel 4300 4550 2    50   Input ~ 0
-DC
+RCLK
 Wire Wire Line
 	4000 4450 4300 4450
 Wire Wire Line
 	4000 4550 4300 4550
 Wire Wire Line
 	4000 4650 4300 4650
-Text GLabel 4200 6350 2    50   Input ~ 0
+Text GLabel 4200 6450 2    50   Input ~ 0
 MOSI2
 $Sheet
 S 4550 5800 550  250 
@@ -1035,7 +1038,7 @@ Wire Wire Line
 	4000 5850 4550 5850
 Wire Wire Line
 	4200 6000 4550 6000
-Text GLabel 4200 6450 2    50   Input ~ 0
+Text GLabel 4200 6350 2    50   Input ~ 0
 MISO2
 Text GLabel 4200 6550 2    50   Input ~ 0
 SCK2
@@ -1258,7 +1261,7 @@ Wire Wire Line
 	8450 1000 8450 950 
 Connection ~ 8450 950 
 Wire Wire Line
-	8450 950  9350 950 
+	8450 950  8950 950 
 Wire Wire Line
 	8450 1350 8450 1300
 $Comp
@@ -1386,4 +1389,27 @@ Wire Wire Line
 	9150 1450 9350 1450
 Wire Wire Line
 	9150 1550 9350 1550
+Wire Wire Line
+	4000 6350 4200 6350
+Wire Wire Line
+	4000 6450 4200 6450
+Text GLabel 9150 1100 0    50   Input ~ 0
+SER
+Text GLabel 9150 1200 0    50   Input ~ 0
+SRCLK
+Text GLabel 9150 1300 0    50   Input ~ 0
+RCLK
+Wire Wire Line
+	9150 1100 9350 1100
+Wire Wire Line
+	9150 1200 9350 1200
+Wire Wire Line
+	9150 1300 9350 1300
+Text GLabel 8950 800  1    50   Input ~ 0
+DD
+Wire Wire Line
+	8950 950  8950 800 
+Connection ~ 8950 950 
+Wire Wire Line
+	8950 950  9350 950 
 $EndSCHEMATC
