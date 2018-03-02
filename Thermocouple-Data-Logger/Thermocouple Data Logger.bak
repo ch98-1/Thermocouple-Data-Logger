@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -1412,4 +1412,10 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    10000 5450
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 2550 800  950  550 
+U 5A9A89AB
+F0 "Mounting_Hole" 50
+F1 "Mounting_Hole.sch" 50
+$EndSheet
 $EndSCHEMATC
