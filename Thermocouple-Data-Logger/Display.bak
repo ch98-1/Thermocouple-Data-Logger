@@ -440,7 +440,7 @@ Text HLabel 5700 2500 2    50   Input ~ 0
 SRCLK
 Text HLabel 5700 2800 2    50   Input ~ 0
 RCLK
-Text HLabel 1050 6350 0    50   Input ~ 0
+Text HLabel 1100 6350 0    50   Input ~ 0
 SRCLK
 Text HLabel 1100 6650 0    50   Input ~ 0
 RCLK
