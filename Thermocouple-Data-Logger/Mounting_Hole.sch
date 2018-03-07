@@ -84,4 +84,17 @@ F 3 "" H 3800 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 3500 3800 3400
+$Comp
+L Graphic:Logo_Open_Hardware_Large #LOGO1
+U 1 1 5A9FD392
+P 4900 2700
+AR Path="/5A9A89AB/5A9FD392" Ref="#LOGO1"  Part="1" 
+AR Path="/5A8E51AF/5A9FD392" Ref="#LOGO1"  Part="1" 
+F 0 "#LOGO1" H 4900 3200 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 4900 2300 50  0001 C CNN
+F 2 "Symbols:OSHW-Logo_11.4x12mm_SilkScreen" H 4900 2700 50  0001 C CNN
+F 3 "~" H 4900 2700 50  0001 C CNN
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

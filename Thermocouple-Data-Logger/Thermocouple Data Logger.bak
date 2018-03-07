@@ -1140,8 +1140,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 4100 5650 4100
 Wire Wire Line
-	5650 4100 5650 4200
-Wire Wire Line
 	5650 4200 5600 4200
 Wire Wire Line
 	5550 4500 5650 4500

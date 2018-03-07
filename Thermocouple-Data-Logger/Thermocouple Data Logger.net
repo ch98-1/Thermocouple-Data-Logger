@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/corwin/Desktop/Thermocouple-Data-Logger/Thermocouple-Data-Logger/Thermocouple Data Logger.sch")
-    (date "Tuesday, March 06, 2018 at 01:01:16 PM")
+    (date "Tuesday, March 06, 2018 at 02:53:21 PM")
     (tool "Eeschema (5.0-dev-4115-gdd04bcb)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
