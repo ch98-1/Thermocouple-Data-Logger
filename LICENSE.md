@@ -2,6 +2,7 @@
 
 All files are licensed under [zlib license](https://opensource.org/licenses/Zlib) unless noted otherwise.
 KiCad Library Files (All .lib .dcm .bck and .pretty files in The Thermocouple-Data-Logger directory) are licensed under [KiCad Libraries License] (http://kicad-pcb.org/libraries/license/)
+Petit FatFs Module (All files in /Firmware/pff3) is licensed under Petit FatFs License
 
 ------------------
 
@@ -54,3 +55,24 @@ However, if you wish to redistribute the KiCad libraries, or parts thereof (incl
 The KiCad libraries are provided in the hope that they will be useful, but are provided without warranty of any kind, express or implied.
 
 The KiCad libraries are compiled by the KiCad community - if you find an error in the library data, please help the community and contribute a fix!
+
+
+-----------------------
+
+### Petit FatFs License
+
+/*----------------------------------------------------------------------------/
+/  Petit FatFs - FAT file system module  R0.03                  (C)ChaN, 2014
+/-----------------------------------------------------------------------------/
+/ Petit FatFs module is a generic FAT file system module for small embedded
+/ systems. This is a free software that opened for education, research and
+/ commercial developments under license policy of following trems.
+/
+/  Copyright (C) 2014, ChaN, all right reserved.
+/
+/ * The Petit FatFs module is a free software and there is NO WARRANTY.
+/ * No restriction on use. You can use, modify and redistribute it for
+/   personal, non-profit or commercial products UNDER YOUR RESPONSIBILITY.
+/ * Redistributions of source code must retain the above copyright notice.
+/
+/-----------------------------------------------------------------------------/
