@@ -9,7 +9,7 @@ OBJCOPY=avr-objcopy
 FUSES = -U lfuse:w:0xe0:m -U hfuse:w:0xd9:m -U efuse:w:0xff:m 
 PROGRAMMER = -c usbtiny -b 19200
 TARGET = main
-SRC = main.c 
+SRC = main.c init.c
 
 #External Sources
 EXT = ./pff3/src
