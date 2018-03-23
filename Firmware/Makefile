@@ -6,8 +6,8 @@ MCU = atmega324pa
 CLOCK = 10000000
 OPTIMIZE = -Os
 OBJCOPY=avr-objcopy
-FUSES = -U lfuse:w:0xe0:m -U hfuse:w:0xd9:m -U efuse:w:0xff:m 
-PROGRAMMER = -c usbtiny -b 19200
+FUSES = -U lfuse:w:0xc7:m -U hfuse:w:0xd9:m -U efuse:w:0xff:m  
+PROGRAMMER = -c usbtiny -b 19200 
 TARGET = main
 SRC = main.c init.c
 
@@ -48,7 +48,7 @@ $(TARGET).elf: $(OBJ)
 
 #Compile and write to chip
 flash: all
-	avrdude -p $(MCU) $(PROGRAMMER -U flash:w:$(PRJ).hex:i
+	avrdude -p $(MCU) $(PROGRAMMER) -U flash:w:$(TARGET).hex:i
 
 #Burn the proper fuse to the chip
 fuse:
