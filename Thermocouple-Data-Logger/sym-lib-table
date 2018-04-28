@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Thermocouple-Data-Logger)(type Legacy)(uri ${KIPRJMOD}/Thermocouple-Data-Logger.lib)(options "")(descr ""))
+  (lib (name Thermocouple-Data-Logger-rescue)(type Legacy)(uri "${KIPRJMOD}/Thermocouple Data Logger-rescue.lib")(options "")(descr ""))
 )

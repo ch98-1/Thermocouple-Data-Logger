@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Logic_74xx:74HC595 U6
+L Thermocouple-Data-Logger-rescue:74HC595-Logic_74xx U6
 U 1 1 5A86784D
 P 1600 2700
 F 0 "U6" H 1850 3400 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 1600 2700 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC595 U8
+L Thermocouple-Data-Logger-rescue:74HC595-Logic_74xx U8
 U 1 1 5A86785B
 P 1600 6550
 F 0 "U8" H 1850 7250 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 1600 6550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_74xx:74HC595 U9
+L Thermocouple-Data-Logger-rescue:74HC595-Logic_74xx U9
 U 1 1 5A867862
 P 5200 6550
 F 0 "U9" H 4950 7250 50  0000 C CNN
@@ -50,7 +50,7 @@ $EndComp
 Text HLabel 10700 700  2    50   Input ~ 0
 VCC
 $Comp
-L Logic_74xx:74HC595 U10
+L Thermocouple-Data-Logger-rescue:74HC595-Logic_74xx U10
 U 1 1 5A868ED4
 P 8850 2200
 F 0 "U10" H 9100 2900 50  0000 C CNN
@@ -61,7 +61,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 8850 2200 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D2
+L Thermocouple-Data-Logger-rescue:LED-device D2
 U 1 1 5A8DC5E4
 P 10550 700
 F 0 "D2" H 10542 445 50  0000 C CNN
@@ -72,7 +72,7 @@ F 3 "~" H 10550 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D3
+L Thermocouple-Data-Logger-rescue:LED-device D3
 U 1 1 5A8DC6B4
 P 10550 1150
 F 0 "D3" H 10542 895 50  0000 C CNN
@@ -83,7 +83,7 @@ F 3 "~" H 10550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D4
+L Thermocouple-Data-Logger-rescue:LED-device D4
 U 1 1 5A8DC6DB
 P 10550 1600
 F 0 "D4" H 10542 1345 50  0000 C CNN
@@ -94,7 +94,7 @@ F 3 "~" H 10550 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D5
+L Thermocouple-Data-Logger-rescue:LED-device D5
 U 1 1 5A8DC706
 P 10550 2100
 F 0 "D5" H 10542 1845 50  0000 C CNN
@@ -105,7 +105,7 @@ F 3 "~" H 10550 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D6
+L Thermocouple-Data-Logger-rescue:LED-device D6
 U 1 1 5A8DC734
 P 10550 2550
 F 0 "D6" H 10542 2295 50  0000 C CNN
@@ -116,7 +116,7 @@ F 3 "~" H 10550 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D7
+L Thermocouple-Data-Logger-rescue:LED-device D7
 U 1 1 5A8DC77F
 P 10550 3050
 F 0 "D7" H 10542 2795 50  0000 C CNN
@@ -127,7 +127,7 @@ F 3 "~" H 10550 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D8
+L Thermocouple-Data-Logger-rescue:LED-device D8
 U 1 1 5A8DC7B7
 P 10550 3550
 F 0 "D8" H 10542 3295 50  0000 C CNN
@@ -157,7 +157,7 @@ VCC
 Wire Wire Line
 	7850 5150 8000 5150
 $Comp
-L device:R R55
+L Thermocouple-Data-Logger-rescue:R-device R55
 U 1 1 5AD8AEEC
 P 6850 5450
 F 0 "R55" V 6643 5450 50  0000 C CNN
@@ -203,7 +203,7 @@ VCC
 Wire Wire Line
 	10750 5150 10900 5150
 $Comp
-L device:R R56
+L Thermocouple-Data-Logger-rescue:R-device R56
 U 1 1 5AD8C3A0
 P 9750 5450
 F 0 "R56" V 9543 5450 50  0000 C CNN
@@ -234,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 5150 7050 5150
 $Comp
-L device:C C19
+L Thermocouple-Data-Logger-rescue:C-device C19
 U 1 1 5ADBEA6C
 P 6850 4800
 F 0 "C19" H 6965 4846 50  0000 L CNN
@@ -245,7 +245,7 @@ F 3 "" H 6850 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C20
+L Thermocouple-Data-Logger-rescue:C-device C20
 U 1 1 5ADBECAE
 P 9750 4800
 F 0 "C20" H 9865 4846 50  0000 L CNN
@@ -268,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 4650 6850 4450
 $Comp
-L device:R R50
+L Thermocouple-Data-Logger-rescue:R-device R50
 U 1 1 5ADBF30B
 P 7200 5150
 F 0 "R50" V 6993 5150 50  0000 C CNN
@@ -281,7 +281,7 @@ $EndComp
 Wire Wire Line
 	7350 5150 7450 5150
 $Comp
-L device:R R51
+L Thermocouple-Data-Logger-rescue:R-device R51
 U 1 1 5ADBF4AD
 P 10100 5150
 F 0 "R51" V 9893 5150 50  0000 C CNN
@@ -521,7 +521,7 @@ Wire Wire Line
 Wire Wire Line
 	950  2900 1100 2900
 $Comp
-L device:R R27
+L Thermocouple-Data-Logger-rescue:R-device R27
 U 1 1 5AA2E7D1
 P 2450 6150
 F 0 "R27" V 2400 6300 50  0000 C CNN
@@ -536,7 +536,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6250 2300 6250
 $Comp
-L device:R R28
+L Thermocouple-Data-Logger-rescue:R-device R28
 U 1 1 5AA309AA
 P 2450 6250
 F 0 "R28" V 2400 6400 50  0000 C CNN
@@ -551,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6350 2300 6350
 $Comp
-L device:R R29
+L Thermocouple-Data-Logger-rescue:R-device R29
 U 1 1 5AA322B2
 P 2450 6350
 F 0 "R29" V 2400 6500 50  0000 C CNN
@@ -566,7 +566,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6450 2300 6450
 $Comp
-L device:R R30
+L Thermocouple-Data-Logger-rescue:R-device R30
 U 1 1 5AA33DF0
 P 2450 6450
 F 0 "R30" V 2400 6600 50  0000 C CNN
@@ -581,7 +581,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6550 2300 6550
 $Comp
-L device:R R31
+L Thermocouple-Data-Logger-rescue:R-device R31
 U 1 1 5AA35B73
 P 2450 6550
 F 0 "R31" V 2400 6700 50  0000 C CNN
@@ -596,7 +596,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6650 2300 6650
 $Comp
-L device:R R32
+L Thermocouple-Data-Logger-rescue:R-device R32
 U 1 1 5AA37B4A
 P 2450 6650
 F 0 "R32" V 2400 6800 50  0000 C CNN
@@ -611,7 +611,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6750 2300 6750
 $Comp
-L device:R R33
+L Thermocouple-Data-Logger-rescue:R-device R33
 U 1 1 5AA39D84
 P 2450 6750
 F 0 "R33" V 2400 6900 50  0000 C CNN
@@ -626,7 +626,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6850 2300 6850
 $Comp
-L device:R R34
+L Thermocouple-Data-Logger-rescue:R-device R34
 U 1 1 5AA3C232
 P 2450 6850
 F 0 "R34" V 2400 7000 50  0000 C CNN
@@ -639,7 +639,7 @@ $EndComp
 Wire Wire Line
 	2600 6850 2800 6850
 $Comp
-L device:R R35
+L Thermocouple-Data-Logger-rescue:R-device R35
 U 1 1 5AA41188
 P 4350 6150
 F 0 "R35" V 4300 6300 50  0000 C CNN
@@ -652,7 +652,7 @@ $EndComp
 Wire Wire Line
 	4500 6150 4700 6150
 $Comp
-L device:R R36
+L Thermocouple-Data-Logger-rescue:R-device R36
 U 1 1 5AA43AC2
 P 4350 6250
 F 0 "R36" V 4300 6400 50  0000 C CNN
@@ -665,7 +665,7 @@ $EndComp
 Wire Wire Line
 	4500 6250 4700 6250
 $Comp
-L device:R R37
+L Thermocouple-Data-Logger-rescue:R-device R37
 U 1 1 5AA4650C
 P 4350 6350
 F 0 "R37" V 4300 6500 50  0000 C CNN
@@ -678,7 +678,7 @@ $EndComp
 Wire Wire Line
 	4500 6350 4700 6350
 $Comp
-L device:R R38
+L Thermocouple-Data-Logger-rescue:R-device R38
 U 1 1 5AA49064
 P 4350 6450
 F 0 "R38" V 4300 6600 50  0000 C CNN
@@ -691,7 +691,7 @@ $EndComp
 Wire Wire Line
 	4500 6450 4700 6450
 $Comp
-L device:R R39
+L Thermocouple-Data-Logger-rescue:R-device R39
 U 1 1 5AA4BCC7
 P 4350 6550
 F 0 "R39" V 4300 6700 50  0000 C CNN
@@ -704,7 +704,7 @@ $EndComp
 Wire Wire Line
 	4500 6550 4700 6550
 $Comp
-L device:R R40
+L Thermocouple-Data-Logger-rescue:R-device R40
 U 1 1 5AA4EA2F
 P 4350 6650
 F 0 "R40" V 4300 6800 50  0000 C CNN
@@ -717,7 +717,7 @@ $EndComp
 Wire Wire Line
 	4500 6650 4700 6650
 $Comp
-L device:R R41
+L Thermocouple-Data-Logger-rescue:R-device R41
 U 1 1 5AA518A1
 P 4350 6750
 F 0 "R41" V 4300 6900 50  0000 C CNN
@@ -730,7 +730,7 @@ $EndComp
 Wire Wire Line
 	4500 6750 4700 6750
 $Comp
-L device:R R42
+L Thermocouple-Data-Logger-rescue:R-device R42
 U 1 1 5AA54817
 P 4350 6850
 F 0 "R42" V 4300 7000 50  0000 C CNN
@@ -745,7 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 700  10000 700 
 $Comp
-L device:R R43
+L Thermocouple-Data-Logger-rescue:R-device R43
 U 1 1 5AA5AAF6
 P 10150 700
 F 0 "R43" V 10100 850 50  0000 C CNN
@@ -758,7 +758,7 @@ $EndComp
 Wire Wire Line
 	10300 700  10400 700 
 $Comp
-L device:R R44
+L Thermocouple-Data-Logger-rescue:R-device R44
 U 1 1 5AA5AB84
 P 10150 1150
 F 0 "R44" V 10100 1300 50  0000 C CNN
@@ -771,7 +771,7 @@ $EndComp
 Wire Wire Line
 	10300 1150 10400 1150
 $Comp
-L device:R R45
+L Thermocouple-Data-Logger-rescue:R-device R45
 U 1 1 5AA66F34
 P 10150 1600
 F 0 "R45" V 10100 1750 50  0000 C CNN
@@ -784,7 +784,7 @@ $EndComp
 Wire Wire Line
 	10300 1600 10400 1600
 $Comp
-L device:R R46
+L Thermocouple-Data-Logger-rescue:R-device R46
 U 1 1 5AA66FA5
 P 10150 2100
 F 0 "R46" V 10100 2250 50  0000 C CNN
@@ -797,7 +797,7 @@ $EndComp
 Wire Wire Line
 	10300 2100 10400 2100
 $Comp
-L device:R R47
+L Thermocouple-Data-Logger-rescue:R-device R47
 U 1 1 5AA67015
 P 10150 2550
 F 0 "R47" V 10100 2700 50  0000 C CNN
@@ -810,7 +810,7 @@ $EndComp
 Wire Wire Line
 	10300 2550 10400 2550
 $Comp
-L device:R R48
+L Thermocouple-Data-Logger-rescue:R-device R48
 U 1 1 5AA67088
 P 10150 3050
 F 0 "R48" V 10100 3200 50  0000 C CNN
@@ -823,7 +823,7 @@ $EndComp
 Wire Wire Line
 	10300 3050 10400 3050
 $Comp
-L device:R R49
+L Thermocouple-Data-Logger-rescue:R-device R49
 U 1 1 5AA670FC
 P 10150 3550
 F 0 "R49" V 10100 3700 50  0000 C CNN
@@ -836,7 +836,7 @@ $EndComp
 Wire Wire Line
 	10300 3550 10400 3550
 $Comp
-L Logic_74xx:74HC595 U7
+L Thermocouple-Data-Logger-rescue:74HC595-Logic_74xx U7
 U 1 1 5A867854
 P 5200 2700
 F 0 "U7" H 4950 3400 50  0000 C CNN
@@ -847,7 +847,7 @@ F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT595.pdf" H 5200 2700 50  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R19
+L Thermocouple-Data-Logger-rescue:R-device R19
 U 1 1 5AA8C43B
 P 4350 2300
 F 0 "R19" V 4300 2450 50  0000 C CNN
@@ -860,7 +860,7 @@ $EndComp
 Wire Wire Line
 	4500 2300 4700 2300
 $Comp
-L device:R R20
+L Thermocouple-Data-Logger-rescue:R-device R20
 U 1 1 5AA9141C
 P 4350 2400
 F 0 "R20" V 4300 2550 50  0000 C CNN
@@ -873,7 +873,7 @@ $EndComp
 Wire Wire Line
 	4500 2400 4700 2400
 $Comp
-L device:R R21
+L Thermocouple-Data-Logger-rescue:R-device R21
 U 1 1 5AA93E63
 P 4350 2500
 F 0 "R21" V 4300 2650 50  0000 C CNN
@@ -886,7 +886,7 @@ $EndComp
 Wire Wire Line
 	4500 2500 4700 2500
 $Comp
-L device:R R22
+L Thermocouple-Data-Logger-rescue:R-device R22
 U 1 1 5AA96B27
 P 4350 2600
 F 0 "R22" V 4300 2750 50  0000 C CNN
@@ -899,7 +899,7 @@ $EndComp
 Wire Wire Line
 	4500 2600 4700 2600
 $Comp
-L device:R R23
+L Thermocouple-Data-Logger-rescue:R-device R23
 U 1 1 5AA99A77
 P 4350 2700
 F 0 "R23" V 4300 2850 50  0000 C CNN
@@ -912,7 +912,7 @@ $EndComp
 Wire Wire Line
 	4500 2700 4700 2700
 $Comp
-L device:R R24
+L Thermocouple-Data-Logger-rescue:R-device R24
 U 1 1 5AA9CC62
 P 4350 2800
 F 0 "R24" V 4300 2950 50  0000 C CNN
@@ -925,7 +925,7 @@ $EndComp
 Wire Wire Line
 	4500 2800 4700 2800
 $Comp
-L device:R R25
+L Thermocouple-Data-Logger-rescue:R-device R25
 U 1 1 5AAA00F8
 P 4350 2900
 F 0 "R25" V 4300 3050 50  0000 C CNN
@@ -938,7 +938,7 @@ $EndComp
 Wire Wire Line
 	4500 2900 4700 2900
 $Comp
-L device:R R26
+L Thermocouple-Data-Logger-rescue:R-device R26
 U 1 1 5AAA3846
 P 4350 3000
 F 0 "R26" V 4300 3150 50  0000 C CNN
@@ -951,7 +951,7 @@ $EndComp
 Wire Wire Line
 	4500 3000 4700 3000
 $Comp
-L device:R R11
+L Thermocouple-Data-Logger-rescue:R-device R11
 U 1 1 5AAA74B3
 P 2450 2300
 F 0 "R11" V 2400 2450 50  0000 C CNN
@@ -966,7 +966,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2300 2300 2300
 $Comp
-L device:R R12
+L Thermocouple-Data-Logger-rescue:R-device R12
 U 1 1 5AAAF076
 P 2450 2400
 F 0 "R12" V 2400 2550 50  0000 C CNN
@@ -981,7 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2400 2300 2400
 $Comp
-L device:R R13
+L Thermocouple-Data-Logger-rescue:R-device R13
 U 1 1 5AAB31BC
 P 2450 2500
 F 0 "R13" V 2400 2650 50  0000 C CNN
@@ -996,7 +996,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2500 2300 2500
 $Comp
-L device:R R14
+L Thermocouple-Data-Logger-rescue:R-device R14
 U 1 1 5AAB76B2
 P 2450 2600
 F 0 "R14" V 2400 2750 50  0000 C CNN
@@ -1011,7 +1011,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2600 2300 2600
 $Comp
-L device:R R15
+L Thermocouple-Data-Logger-rescue:R-device R15
 U 1 1 5AABBF66
 P 2450 2700
 F 0 "R15" V 2400 2850 50  0000 C CNN
@@ -1026,7 +1026,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2700 2300 2700
 $Comp
-L device:R R16
+L Thermocouple-Data-Logger-rescue:R-device R16
 U 1 1 5AAC0BE9
 P 2450 2800
 F 0 "R16" V 2400 2950 50  0000 C CNN
@@ -1041,7 +1041,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2800 2300 2800
 $Comp
-L device:R R17
+L Thermocouple-Data-Logger-rescue:R-device R17
 U 1 1 5AAC5C48
 P 2450 2900
 F 0 "R17" V 2400 3050 50  0000 C CNN
@@ -1056,7 +1056,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 2900 2300 2900
 $Comp
-L device:R R18
+L Thermocouple-Data-Logger-rescue:R-device R18
 U 1 1 5AACB091
 P 2450 3000
 F 0 "R18" V 2400 3150 50  0000 C CNN
@@ -1125,7 +1125,7 @@ F 3 "" H 3280 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C37
+L Thermocouple-Data-Logger-rescue:C-device C37
 U 1 1 5AB08FD8
 P 1450 5550
 F 0 "C37" V 1198 5550 50  0000 C CNN
@@ -1156,7 +1156,7 @@ Wire Wire Line
 Text HLabel 1600 5100 1    50   Input ~ 0
 VCC
 $Comp
-L device:C C38
+L Thermocouple-Data-Logger-rescue:C-device C38
 U 1 1 5AB149FA
 P 5050 5550
 F 0 "C38" V 4798 5550 50  0000 C CNN
@@ -1187,7 +1187,7 @@ Wire Wire Line
 Text HLabel 5200 5100 1    50   Input ~ 0
 VCC
 $Comp
-L device:C C36
+L Thermocouple-Data-Logger-rescue:C-device C36
 U 1 1 5AB1A8E3
 P 5050 1700
 F 0 "C36" V 4798 1700 50  0000 C CNN
@@ -1218,7 +1218,7 @@ Wire Wire Line
 Text HLabel 5200 1250 1    50   Input ~ 0
 VCC
 $Comp
-L device:C C35
+L Thermocouple-Data-Logger-rescue:C-device C35
 U 1 1 5AB207BE
 P 1450 1700
 F 0 "C35" V 1198 1700 50  0000 C CNN
@@ -1249,7 +1249,7 @@ Wire Wire Line
 Text HLabel 1600 1250 1    50   Input ~ 0
 VCC
 $Comp
-L device:C C39
+L Thermocouple-Data-Logger-rescue:C-device C39
 U 1 1 5AB268F4
 P 8700 1200
 F 0 "C39" V 8448 1200 50  0000 C CNN

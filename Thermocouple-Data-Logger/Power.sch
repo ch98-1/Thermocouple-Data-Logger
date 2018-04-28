@@ -26,7 +26,7 @@ F 3 "" H 4650 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C40
+L Thermocouple-Data-Logger-rescue:C-device C40
 U 1 1 5A8E52B8
 P 5450 3000
 F 0 "C40" H 5565 3046 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 5450 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C41
+L Thermocouple-Data-Logger-rescue:C-device C41
 U 1 1 5A8E52BF
 P 7600 3000
 F 0 "C41" H 7715 3046 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 7600 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C12
+L Thermocouple-Data-Logger-rescue:C-device C12
 U 1 1 5A8E52C6
 P 7050 3000
 F 0 "C12" H 7165 3046 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 7050 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J0
+L Thermocouple-Data-Logger-rescue:Conn_01x02-Connector J0
 U 1 1 5A8E52CE
 P 3750 2850
 F 0 "J0" H 3670 2525 50  0000 C CNN

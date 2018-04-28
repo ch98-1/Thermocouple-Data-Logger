@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title ""
-Date ""
-Rev ""
+Title "Thermocouple Data Logger"
+Date "2018-03-07"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L atmel:ATMEGA324PA-MU U0
+L Thermocouple-Data-Logger-rescue:ATMEGA324PA-MU-atmel U0
 U 1 1 5A8617D1
 P 3000 5150
 F 0 "U0" H 3000 7400 50  0000 C CNN
@@ -142,7 +142,7 @@ Connection ~ 2800 7300
 Wire Wire Line
 	2800 7300 2850 7300
 $Comp
-L device:C C24
+L Thermocouple-Data-Logger-rescue:C-device C24
 U 1 1 5A8E6FD1
 P 3700 2900
 F 0 "C24" V 3448 2900 50  0000 C CNN
@@ -153,7 +153,7 @@ F 3 "" H 3700 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C21
+L Thermocouple-Data-Logger-rescue:C-device C21
 U 1 1 5A8E7D56
 P 2150 2900
 F 0 "C21" V 1898 2900 50  0000 C CNN
@@ -164,7 +164,7 @@ F 3 "" H 2150 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C22
+L Thermocouple-Data-Logger-rescue:C-device C22
 U 1 1 5A8E7D82
 P 2650 2400
 F 0 "C22" V 2398 2400 50  0000 C CNN
@@ -175,7 +175,7 @@ F 3 "" H 2650 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C23
+L Thermocouple-Data-Logger-rescue:C-device C23
 U 1 1 5A8E7DB2
 P 3200 2400
 F 0 "C23" V 2948 2400 50  0000 C CNN
@@ -314,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3000 2000 2900
 $Comp
-L device:C C17
+L Thermocouple-Data-Logger-rescue:C-device C17
 U 1 1 5A8EC7BC
 P 1850 5000
 F 0 "C17" V 1598 5000 50  0000 C CNN
@@ -342,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	1350 5000 1700 5000
 $Comp
-L device:Crystal_GND24 Y0
+L Thermocouple-Data-Logger-rescue:Crystal_GND24-device Y0
 U 1 1 5A8F2265
 P 1400 4050
 F 0 "Y0" V 1100 3700 50  0000 L CNN
@@ -391,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 5950 4200 6000
 $Comp
-L device:C C2
+L Thermocouple-Data-Logger-rescue:C-device C2
 U 1 1 5A8FCA8F
 P 1200 3550
 F 0 "C2" V 948 3550 50  0000 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 1200 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C3
+L Thermocouple-Data-Logger-rescue:C-device C3
 U 1 1 5A8FCCFB
 P 1200 4500
 F 0 "C3" V 948 4500 50  0000 C CNN
@@ -523,7 +523,7 @@ F 3 "" H 5500 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_02x03_Odd_Even J6
+L Thermocouple-Data-Logger-rescue:Conn_02x03_Odd_Even-Connector J6
 U 1 1 5A984B5E
 P 9600 3300
 F 0 "J6" H 9650 3617 50  0000 C CNN
@@ -588,7 +588,7 @@ RESET
 Text GLabel 8350 3900 0    50   Input ~ 0
 RESET
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 7 1 5A9A0A2A
 P 7150 3350
 F 0 "U13" H 7380 3396 50  0000 L CNN
@@ -599,7 +599,7 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 1 1 5A9A89DB
 P 10400 3300
 F 0 "U13" H 10400 3617 50  0000 C CNN
@@ -610,7 +610,7 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 2 1 5A9A8A59
 P 8800 3300
 F 0 "U13" H 8800 2983 50  0000 C CNN
@@ -621,7 +621,7 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	-1   0    0    1   
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 3 1 5A9A8ADB
 P 8800 3900
 F 0 "U13" H 8800 3583 50  0000 C CNN
@@ -645,7 +645,7 @@ $EndComp
 Wire Wire Line
 	7150 4000 7150 3850
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 4 1 5A9AAE84
 P 7500 5250
 F 0 "U13" H 7500 5567 50  0000 C CNN
@@ -656,7 +656,7 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 5 1 5A9AAF0E
 P 7500 5750
 F 0 "U13" H 7500 6067 50  0000 C CNN
@@ -667,7 +667,7 @@ F 3 "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_CMOS_4000:4050 U13
+L Thermocouple-Data-Logger-rescue:4050-Logic_CMOS_4000 U13
 U 6 1 5A9AAF9E
 P 7500 4750
 F 0 "U13" H 7500 5067 50  0000 C CNN
@@ -699,7 +699,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2850 7150 2750
 $Comp
-L device:C C33
+L Thermocouple-Data-Logger-rescue:C-device C33
 U 1 1 5A9B9571
 P 7450 2750
 F 0 "C33" V 7198 2750 50  0000 C CNN
@@ -780,7 +780,7 @@ F 3 "" H 8600 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D10
+L Thermocouple-Data-Logger-rescue:D_Schottky-device D10
 U 1 1 5A9F17B2
 P 8600 2400
 F 0 "D10" V 8554 2479 50  0000 L CNN
@@ -791,7 +791,7 @@ F 3 "" H 8600 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D_Schottky D9
+L Thermocouple-Data-Logger-rescue:D_Schottky-device D9
 U 1 1 5A9F182D
 P 8600 2100
 F 0 "D9" V 8554 2179 50  0000 L CNN
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 5650 8600 5550
 $Comp
-L device:C C34
+L Thermocouple-Data-Logger-rescue:C-device C34
 U 1 1 5AA11AA3
 P 8300 5500
 F 0 "C34" V 8048 5500 50  0000 C CNN
@@ -896,7 +896,7 @@ Connection ~ 5150 3750
 Wire Wire Line
 	5050 3050 5050 2600
 $Comp
-L device:LED D0
+L Thermocouple-Data-Logger-rescue:LED-device D0
 U 1 1 5AA7B2DF
 P 4700 3050
 F 0 "D0" H 4691 3266 50  0000 C CNN
@@ -922,7 +922,7 @@ F 3 "" H 4050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L Thermocouple-Data-Logger-rescue:R-device R8
 U 1 1 5AA8E8C6
 P 4250 2900
 F 0 "R8" H 4320 2946 50  0000 L CNN
@@ -942,7 +942,7 @@ Connection ~ 5050 3050
 Wire Wire Line
 	5000 2600 5050 2600
 $Comp
-L device:R R52
+L Thermocouple-Data-Logger-rescue:R-device R52
 U 1 1 5AAD9464
 P 4700 3350
 F 0 "R52" V 4493 3350 50  0000 C CNN
@@ -962,7 +962,7 @@ Connection ~ 5050 3350
 Wire Wire Line
 	5050 3350 5050 3050
 $Comp
-L device:LED D1
+L Thermocouple-Data-Logger-rescue:LED-device D1
 U 1 1 5AB14889
 P 4650 4050
 F 0 "D1" H 4642 3795 50  0000 C CNN
@@ -974,7 +974,7 @@ F 3 "~" H 4650 4050 50  0001 C CNN
 $EndComp
 Connection ~ 4250 3050
 $Comp
-L device:R R10
+L Thermocouple-Data-Logger-rescue:R-device R10
 U 1 1 5AB18F7F
 P 5000 4050
 F 0 "R10" V 5207 4050 50  0000 C CNN
@@ -1158,7 +1158,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5400 5650 5400
 $Comp
-L device:R R57
+L Thermocouple-Data-Logger-rescue:R-device R57
 U 1 1 5AC32C62
 P 5900 2300
 F 0 "R57" V 5693 2300 50  0000 C CNN
@@ -1169,7 +1169,7 @@ F 3 "" H 5900 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R58
+L Thermocouple-Data-Logger-rescue:R-device R58
 U 1 1 5AC32CD0
 P 5900 2600
 F 0 "R58" V 5693 2600 50  0000 C CNN
@@ -1180,7 +1180,7 @@ F 3 "" H 5900 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R59
+L Thermocouple-Data-Logger-rescue:R-device R59
 U 1 1 5AC32D28
 P 5900 2900
 F 0 "R59" V 5693 2900 50  0000 C CNN
@@ -1223,7 +1223,7 @@ Connection ~ 5150 2900
 Wire Wire Line
 	5150 2900 5150 3750
 $Comp
-L device:R R54
+L Thermocouple-Data-Logger-rescue:R-device R54
 U 1 1 5AC9C9C4
 P 8450 1150
 F 0 "R54" V 8243 1150 50  0000 C CNN
@@ -1279,7 +1279,7 @@ Connection ~ 5850 1300
 Wire Wire Line
 	5850 1300 6200 1300
 $Comp
-L device:R R53
+L Thermocouple-Data-Logger-rescue:R-device R53
 U 1 1 5AD37429
 P 5850 1050
 F 0 "R53" V 5643 1050 50  0000 C CNN
@@ -1296,7 +1296,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 1300 4900 1300
 $Comp
-L device:C C18
+L Thermocouple-Data-Logger-rescue:C-device C18
 U 1 1 5ADC93BA
 P 5850 1550
 F 0 "C18" V 5598 1550 50  0000 C CNN
@@ -1331,7 +1331,7 @@ Wire Wire Line
 Text GLabel 7150 2650 1    50   Input ~ 0
 DEBUG
 $Comp
-L device:D_Schottky D11
+L Thermocouple-Data-Logger-rescue:D_Schottky-device D11
 U 1 1 5A9A15D5
 P 6200 1050
 F 0 "D11" V 6154 1129 50  0000 L CNN
@@ -1354,7 +1354,7 @@ Connection ~ 5850 850
 Wire Wire Line
 	5850 850  5850 800 
 $Comp
-L device:R R9
+L Thermocouple-Data-Logger-rescue:R-device R9
 U 1 1 5A9BE9D0
 P 5550 1300
 F 0 "R9" H 5620 1346 50  0000 L CNN
@@ -1400,7 +1400,7 @@ Connection ~ 8950 950
 Wire Wire Line
 	8950 950  9350 950 
 $Comp
-L Connector:Micro_SD_Card_Det J1
+L Thermocouple-Data-Logger-rescue:Micro_SD_Card_Det-Connector J1
 U 1 1 5A972AA1
 P 10000 5450
 F 0 "J1" H 9950 6267 50  0000 C CNN
